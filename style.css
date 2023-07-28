@@ -1,0 +1,88 @@
+
+:root{
+    --cor-preta: #000000;
+    --cor-cinza: #88888A;
+    --cor-vermelha: #D13E46;
+    --cor-cabecalho: #E7E7E9;
+}
+
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    
+}
+
+.container-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.container-lista{
+    display: flex;
+    justify-content: end;
+    gap: 2em;
+}
+
+.container-lista-link{
+    text-decoration: none;
+}
+
+.banner-container{
+    text-align: center;
+}
+
+.imagem{
+    height: 3em;
+}
+
+.imagem-container{
+    height: 20em;
+}
+
+.container-box{
+    display: flex;
+    align-items: center;
+}
+
+.container-lampadas{
+    display: flex;
+    gap: 2em;
+}
+
+.container-estrelinha{
+    display: flex;
+    align-items: center;
+}
+
+.imagem-estrelinha{
+    height: 2.5em;
+}
+
+.container-saas{
+    display: flex;
+    align-items: center;
+}
+
+.section-dois{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-tres{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-apple{
+    display: flex;
+    flex: row;
+    gap: 0.5em;
+}
+
+.rodape{
+    text-align: center;
+}
+
