@@ -41,8 +41,7 @@
     margin: 1em;
     font-family: 'Roboto';
     color: var(--cor-cinza);
-    font-weight: 800
-    ;
+    font-weight: 800;
 
 }
 
@@ -63,7 +62,6 @@
     background-color: var(--cor-cabecalho);
     padding: 1.5em;
     text-align: center;
-    
 }
 
 
@@ -80,7 +78,52 @@
     font-family: 'Roboto';
     font-weight: bold;
     padding-top: 0.5em;
+    padding-bottom: 1em;
     font-size: 1.5em;
+}
+
+.banner-link{
+    text-decoration: none;
+    font-family:'Roboto';
+    background-color: var(--cor-vermelha);
+    color: var(--cor-branca) ;
+    border-radius: 0.5em;
+    padding: 0.5em 1.5em;
+    
+}
+
+.section-um-subtitulo{
+    font-family: 'Roboto';
+    font-size: 3em;
+    font-weight: 600;
+    
+}
+
+.section-um-descricao{
+    font-family: 'Poppins';
+    font-size: 2em;
+    color: var(--cor-cinza);
+    font-weight: 800;
+}
+
+.section-um-paragrafo{
+    font-family: 'Poppins';
+    color:var(--cor-cinza) ;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    
+}
+
+
+.section-um-lorem{
+    font-family: 'roboto';
+    text-align: center;
+    padding-bottom: 2em;
+    color: var(--cor-cinza);
+    font-size: 1.1em;
+    margin-right: 20em;
+    
 }
 
 .imagem{
