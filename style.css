@@ -183,7 +183,7 @@
 }
 
 .imagem-container{
-    height: 20em;
+    height: 17vw;
 }
 
 .container-box{
@@ -240,7 +240,7 @@
     margin: 0 15em;
     padding: 0 10em;
     font-family: 'Poppins';
-    color:var(--cor-cinza) ;
+    color: var(--cor-cinza);
     font-size: 1.2em;
 
 }
@@ -304,4 +304,103 @@
     color:var(--cor-cinza) ;
     font-size: 1.2em;
     margin-bottom: 2em;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .container-cabecalho{
+        display: block;
+        margin: 0;
+
+    }
+
+    .container-imagem-logo{
+        margin: 0;
+    }
+
+    .container-lista{
+        display: block;
+    }
+
+    .banner-titulo{
+        margin: 0em;
+        font-size: 2.5em;
+    }
+
+    .banner-descricao{
+        font-size: 1.5em;
+    }
+
+    .banner{
+        padding: 3em 1em; 
+    }
+
+    .section-dois{
+        margin: 0;
+    }
+
+    .imagem-container{ 
+        width: 55vw;
+        height: 45vw;
+        text-align: center;
+        margin: 0 1em;
+    }
+
+    .container-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-saas{
+        display: block;
+    }
+
+    .container-lampadas{
+        display: block;
+    }
+
+    .section-um-subtitulo{
+        font-size: 2em;
+        text-align: center;
+        margin: 0 1em;
+        padding: 0.5em;
+    
+        
+    }
+
+    .section-um-descricao{
+        font-size: 1em;
+        text-align: center;
+        padding-bottom: 0.5em;
+        
+    }
+
+    .section-um-paragrafo{
+        font-size: 0.9em ;
+        margin: 0 2em;
+        padding: 0 1em;
+        text-align: center;
+    }
+
+    .section-um-lorem{
+        text-align: center;
+        font-size: 0.9em ;
+        margin: 0 2em;
+        padding: 1em 2em
+    }
+
+    .section-subtitulo-secundario{
+        font-size: 2em;
+        text-align: center;
+        margin: 0.5em 2em;
+        
+    }
+
+    .section-paragrafo-secundario{
+        font-size: 0.9em ;
+        margin: 0 2em;
+        padding: 0 1em;
+    }
 }
