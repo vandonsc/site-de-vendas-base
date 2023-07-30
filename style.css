@@ -62,6 +62,7 @@
     background-color: var(--cor-cabecalho);
     padding: 1.5em;
     text-align: center;
+    
 }
 
 
@@ -70,7 +71,7 @@
     font-weight: bold;
     font-size: 3.5em;
     padding-top: 0.5em;
-    margin: 0em 9em;
+    margin: 0em 5em;
 
 }   
 
@@ -142,6 +143,7 @@
     font-weight: 500;
     font-size: 1.2em;
     text-align: center;
+    margin: 0 3em;
 }
 
 .imagem-lampada{
@@ -153,6 +155,24 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 2em 2em ;
+}
+
+.linha{
+    background-color: var(--cor-cabecalho);
+    margin: 0 15em;
+    padding: 0.1em 0;
+    border-radius: 1.5em;
+}
+
+.container-paragrafo{
+    text-align: center;
+    margin: 0 1.5em;
+    font-family: 'roboto';
+    text-align: center;
+    color: var(--cor-cinza);
+    font-weight: 500;
+
 }
 
 .imagem{
@@ -170,22 +190,34 @@
 
 .container-lampadas{
     display: flex;
-    gap: 2em;
+    gap: 1em;
 }
 
 .container-estrelinha{
     display: flex;
     align-items: center;
+    gap: 1em;
 }
 
 .imagem-estrelinha{
     height: 2.5em;
+   /*height: 1.9vw;*/
 }
 
 .container-saas{
     display: flex;
     align-items: center;
+    gap: 1em;
+    margin: 1.5em 0em;
 }
+
+.container-estrelinha-paragrafo{
+    font-family: 'roboto';
+    color: var(--cor-cinza);
+    font-weight: 500;
+    
+}
+
 
 .section-dois{
     display: flex;
@@ -200,10 +232,52 @@
     align-items: center;
     flex-direction: column;
 }
+
+.section-paragrafo-terciario{
+    margin: 0 15em;
+    padding: 0 10em;
+    font-family: 'Poppins';
+    color:var(--cor-cinza) ;
+    font-size: 1.2em;
+
+}
+
+.section-subtitulo-terciario{
+    font-family: 'Roboto';
+    font-size: 2.3em;
+    font-weight: 600;
+    margin: 0.5em 0 ;
+    text-align: center;
+}
 .container-apple{
     display: flex;
     flex: row;
     gap: 0.5em;
+    margin-bottom: 2em;
+}
+
+.container-planos{
+    margin: 3em 0em ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+
+.imagem-planos{
+    width: 10vw;
+}
+
+.container-depoimento{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+
+.icone-depoimento{
+    width: 12vw;
 }
 
 .rodape{
