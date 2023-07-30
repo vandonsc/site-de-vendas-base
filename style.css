@@ -18,11 +18,14 @@
     align-items: center;
     justify-content:space-between;
     text-align: center;
+    margin: 0 4em;
+
     
 }
 
 .container-lista{
     padding-top: 0.5em;
+    gap: 1em;
 }
 
 .container-imagem-logo{
@@ -256,6 +259,10 @@
     margin-bottom: 2em;
 }
 
+.icone-apple{
+    width: 5vw;
+}
+
 .container-planos{
     margin: 3em 0em ;
     display: flex;
@@ -265,7 +272,7 @@
 }
 
 .imagem-planos{
-    width: 10vw;
+    width: 8vw;
 }
 
 .container-depoimento{
@@ -273,6 +280,7 @@
     align-items: center;
     flex-direction: row;
     margin-bottom: 2em;
+    gap: 2em;
 }
 
 
@@ -284,3 +292,16 @@
     text-align: center;
 }
 
+.rodape-subtitulo{
+    font-family: 'Roboto';
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.rodape-paragrafo{
+    font-family: 'Poppins';
+    color:var(--cor-cinza) ;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
