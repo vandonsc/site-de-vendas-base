@@ -275,7 +275,7 @@
 }
 
 .imagem-planos{
-    width: 8vw;
+    width: 16vw;
 }
 
 .container-depoimento{
@@ -468,21 +468,25 @@
     }
 
     .container-planos{
-        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        margin: 1em 1em;
         gap: 1em;
     }
 
     .imagem-planos{
-        width: 18vw;
+        width: 50vw;
     }
 
     .container-depoimento{
+        display: flex;
+        flex-direction: column;
         margin-bottom: 1em;
         gap: 1em;
     }
 
     .icone-depoimento{
-        width: 18vw;
+        width: 50vw;
     }
 
     .rodape-subtitulo{
