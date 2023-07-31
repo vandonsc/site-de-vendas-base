@@ -515,3 +515,15 @@
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .banner-titulo{
+        margin: 0 2em;
+    }
+
+
+    .section-dois{
+        margin: 0 15em;
+    }
+
+}
+
