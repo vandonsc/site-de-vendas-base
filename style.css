@@ -203,8 +203,7 @@
 }
 
 .imagem-estrelinha{
-    height: 2.5em;
-   /*height: 1.9vw;*/
+   height: 1.9vw;
 }
 
 .container-saas{
@@ -212,6 +211,10 @@
     align-items: center;
     gap: 1em;
     margin: 1.5em 0em;
+}
+
+.imagem-saas{
+    width: 13vw;
 }
 
 .container-estrelinha-paragrafo{
@@ -359,6 +362,17 @@
 
     .container-lampadas{
         display: block;
+        flex-direction: column;
+    }
+
+    .imagem-lampada{
+        width: 15vw;
+    }
+
+    .container-paragrafo{
+        text-align: center;
+        font-size: 0.9em ;
+        margin: 0 3em;
     }
 
     .section-um-subtitulo{
@@ -402,5 +416,80 @@
         font-size: 0.9em ;
         margin: 0 2em;
         padding: 0 1em;
+    }
+
+    .container-estrelinha-paragrafo{
+        font-size: 0.9em ;
+    }
+
+    .container-estrelinha{
+        gap: 0.5em;
+    }
+
+    .container-estrelinha-mod{
+        display: flex;
+        flex-direction: row-reverse;
+    
+    }
+
+    .imagem-saas{
+        width: 40vw;
+        text-align: center;
+        margin: 1em;
+    }
+
+    .imagem-estrelinha{
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .linha{
+        padding: 0.1em 2em;
+        margin: 0 2em;
+    }
+
+    .section-subtitulo-terciario{
+        font-size: 1.7em;
+    }
+
+    .section-paragrafo-terciario{
+        font-size: 0.9em ;
+        padding: 0 2em;
+        margin: 0 1.5em;
+    }
+
+    .container-apple{
+        display: flex;
+        margin: 0 2em 1em 0 2em;
+    }
+
+    .icone-apple{
+        width: 8vw;
+    }
+
+    .container-planos{
+        margin: 1em;
+        gap: 1em;
+    }
+
+    .imagem-planos{
+        width: 18vw;
+    }
+
+    .container-depoimento{
+        margin-bottom: 1em;
+        gap: 1em;
+    }
+
+    .icone-depoimento{
+        width: 18vw;
+    }
+
+    .rodape-subtitulo{
+        font-size: 1.8em;
+    }
+
+    .rodape-paragrafo{
+        font-size: 0.9em ;
     }
 }
