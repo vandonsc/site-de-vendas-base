@@ -309,7 +309,7 @@
     margin-bottom: 2em;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
 
     .container-cabecalho{
@@ -515,15 +515,143 @@
     }
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1440px){
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-titulo{
+        margin: 0 1em;
+    }
+
+    .container-lampadas{
+        display: block;
+    }
+
+    .section-dois{
+        margin: 0 6em;
+    }
+
+    .section-tres{
+        margin: 0 3em;
+    }
+
+    .container-cabecalho{
+        gap: 1em;
+    }
+
+    .section-um-lorem{
+        padding: 1em 0;
+    }
+
+    .section-subtitulo-secundario{
+        margin: 1em 2em;
+    }
+
+    .section-paragrafo-secundario{
+        margin: 1em 2em;
+        padding: 0 2em;
+    }
+
+    .section-paragrafo-terciario{
+        margin: 0 1em;
+    }
+    .container-saas{
+        display: block;
+    }
+
+    .container-estrelinha-mod{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .imagem-lampada{
+        width: 8vw;
+    }
+
+    .container-paragrafo{
+        margin: 0 10em;
+    }
+
+    .imagem-saas{
+        width: 15vw;
+        margin: 1em 0;
+    }
+
+    .imagem-estrelinha{
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .imagem-planos{
+        width: 22vw;
+    }
+
+    .icone-depoimento{
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .banner-titulo{
+        margin: 0 0.8em;
+    }
+    .section-dois{
+        margin: 0 6em;
+    }
+
+    .container-lampadas{
+        display: block;
+    }
+    .imagem-lampada{
+        width: 7vw;
+    }
+
+    .container-paragrafo{
+        margin: 0 10em;
+    }
+
+    .section-tres{
+        margin: 0 6em;
+    }
+
+    .container-estrelinha-mod{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .container-saas{
+        display: block;
+    }
+
+    .imagem-estrelinha{
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .imagem-saas{
+        width: 15vw;
+        margin: 1em 0;
+    }
+
+    .section-paragrafo-terciario{
+        margin: 0 1em;
+    }
+
+    .imagem-planos{
+        width: 22vw;
+    }
+
+    .icone-depoimento{
+        width: 20vw;
+    }
+}
+
+
+@media screen and (min-width: 1200px){ /*and (max-width: 1440px){*/
     .banner-titulo{
         margin: 0 2em;
     }
-
-
+    
     .section-dois{
         margin: 0 15em;
     }
 
 }
-
